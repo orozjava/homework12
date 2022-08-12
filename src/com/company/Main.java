@@ -3,13 +3,13 @@ package com.company;
 public class Main {
 
     public static void main(String[] args) {
-        Cat();
-        Fish();
-        Parrot();
-        Dog();
+        cat();
+        fish();
+        parrot();
+        dog();
 
     }
-    public static void Cat(){
+    public static void cat(){
         Cat cat = new Cat();
         cat.setName();
         String name = cat.getName();
@@ -27,7 +27,7 @@ public class Main {
         double weght = cat.getWeight();
         System.out.println("weight = " + weght);
     }
-    public static void Fish() {
+    public static void fish() {
         Fish fish = new Fish();
         fish.setName1();
         String name1 = fish.getName1();
@@ -45,7 +45,7 @@ public class Main {
         float weight1 = (float) fish.getWeight1();
         System.out.println("вес: " + weight1 + " тонна:");
     }
-    public static void Parrot() {
+    public static void parrot() {
         Parrot parrot = new Parrot();
         parrot.setName2();
         String name2 = parrot.getName2();
@@ -60,7 +60,7 @@ public class Main {
         int weight2 = parrot.getWeight2();
         System.out.println(weight2 + " кг");
     }
-    public static void Dog() {
+    public static void dog() {
         Dog dog = new Dog();
         dog.setNickName();
         String nickName = dog.getNickName();
